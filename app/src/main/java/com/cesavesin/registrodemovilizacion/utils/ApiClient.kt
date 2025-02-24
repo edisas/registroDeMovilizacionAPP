@@ -52,3 +52,11 @@ object ApiClient {
         })
     }
 }
+object ApiConfig {
+    // URL base del API (cámbiala aquí cuando necesites)
+    const val BASE_URL = "https://prawn-cunning-koala.ngrok-free.app"
+
+    // Ejemplo de endpoints (opcional, para referencia)
+    const val VALIDATE_TOKEN = "/auth/validate-token"
+    const val LOGIN = "/auth/login" // Puedes agregar más según tu API
+}

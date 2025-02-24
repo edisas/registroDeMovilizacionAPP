@@ -96,10 +96,6 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.1") // LiveData y ViewModel
     implementation("io.github.beyka:Android-TiffBitmapFactory:0.9.9.1") // Conversión a TIFF
 
-
-
-
-
     // Testing
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
@@ -108,4 +104,9 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    // Retrofit
+    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+    // Convertidor Gson
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
 }
